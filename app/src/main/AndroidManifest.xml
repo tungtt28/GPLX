@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.Noi_Dung_Bien_Bao"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Hoc_Bien_Bao"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Lam_De_Thi"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SelectExamCodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Nhom_On_Thi"
+            android:exported="false"
+            android:theme="@style/Theme.Project" />
+        <activity
+            android:name=".Activity.Bai_Thi_Thuc_Hanh"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Meo_Ly_Thuyet"
+            android:exported="false" />
+        <activity
+            android:name=".Models.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

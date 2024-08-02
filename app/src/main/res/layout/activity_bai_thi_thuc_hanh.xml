@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Bai_Thi_Thuc_Hanh">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- ImageView trước phần I -->
+            <ImageView
+                android:id="@+id/imageViewI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Image I"
+                android:src="@drawable/ic_launcher_background"/>
+
+            <TextView
+                android:id="@+id/textViewI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:text=""/>
+
+            <!-- ImageView trước phần II -->
+            <ImageView
+                android:id="@+id/imageViewII"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Image II"
+                android:src="@drawable/ic_launcher_background"/>
+
+            <TextView
+                android:id="@+id/textViewII"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:text=""/>
+
+            <!-- ImageView trước phần III -->
+            <ImageView
+                android:id="@+id/imageViewIII"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Image III"
+                android:src="@drawable/ic_launcher_background"/>
+
+            <TextView
+                android:id="@+id/textViewIII"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:text=""/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
